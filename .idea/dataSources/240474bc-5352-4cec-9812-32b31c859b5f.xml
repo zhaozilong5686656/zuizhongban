@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="gf@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.18">
+    <root id="1">
+      <ServerVersion>11.0.2100</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="ReportServer">
+      <ObjectId>5</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="3" parent="1" name="ReportServerTempDB">
+      <ObjectId>6</ObjectId>
+      <Collation>Latin1_General_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="4" parent="1" name="gf">
+      <ObjectId>7</ObjectId>
+      <Current>1</Current>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+      <Fingerprint>7.44761/71215609-D574-4929-85A9-0A8EF3621101@DESKTOP-GB3CC9U</Fingerprint>
+    </database>
+    <database id="5" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <schema id="9" parent="4" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="10" parent="4" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="11" parent="4" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="12" parent="4" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="13" parent="4" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="14" parent="4" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="15" parent="4" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="16" parent="4" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="17" parent="4" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="18" parent="4" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="19" parent="4" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2022-07-28.22:00:25.147</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="20" parent="4" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="21" parent="4" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="22" parent="19" name="Calligraphy_Datatable">
+      <ObjectId>565577053</ObjectId>
+      <CreatedTimestamp>2022-07-21.22:21:32.363</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-21.22:21:32.363</ModifiedTimestamp>
+    </table>
+    <table id="23" parent="19" name="user">
+      <ObjectId>245575913</ObjectId>
+      <CreatedTimestamp>2022-07-21.19:51:51.727</CreatedTimestamp>
+      <ModifiedTimestamp>2022-07-21.19:51:51.727</ModifiedTimestamp>
+    </table>
+    <column id="24" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="22" name="data">
+      <Position>2</Position>
+      <DataType>nchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="22" name="coding">
+      <Position>3</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="22" name="experiencepeople">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="22" name="lookatpeople">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="22" name="sharem">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="22" name="printm">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="22" name="carvingm">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="22" name="runtheday">
+      <Position>9</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="22" name="praise">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="22" name="deviceaddress">
+      <Position>11</Position>
+      <DataType>nchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="22" name="news">
+      <Position>12</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="22" name="state">
+      <Position>13</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="22" name="code">
+      <Position>14</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+    </column>
+    <column id="38" parent="23" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="39" parent="23" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="40" parent="23" name="address">
+      <Position>3</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="41" parent="23" name="age">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="42" parent="23" name="sex">
+      <Position>5</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="43" parent="23" name="phone">
+      <Position>6</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+  </database-model>
+</dataSource>
